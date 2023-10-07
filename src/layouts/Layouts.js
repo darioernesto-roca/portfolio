@@ -31,6 +31,7 @@ const Layouts = ({ children, bodyCls, extraPage, light }) => {
           rel="stylesheet"
         />{" "}
         <title>Dario Ernesto Roca - Web Developer</title>
+        <link rel="icon" href="img/favicon.ico" />
       </Head>
       <div className="page animated" style={{ animationDuration: "500ms" }}>
         <Switcher />
