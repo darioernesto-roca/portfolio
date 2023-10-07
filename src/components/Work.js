@@ -54,7 +54,7 @@ const workData = [
   },
   {
     img: "img/projects/project-5.jpg",
-    name: "Image Format",
+    name: "Revitalyze Aesthetics",
     format: "img",
     project: "TEAM BUILT WEBSITE | MIDDLEWAY MARKETING",
     client: "Revitalyze Aesthetics",
@@ -65,7 +65,7 @@ const workData = [
   },
   {
     img: "img/projects/project-6.jpg",
-    name: "Image Format",
+    name: "Venetian Med Spa",
     format: "img",
     project: "TEAM BUILT WEBSITE | MIDDLEWAY MARKETING",
     client: "Venetian Med Spa",
