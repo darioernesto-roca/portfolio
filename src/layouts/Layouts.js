@@ -35,7 +35,7 @@ const Layouts = ({ children, bodyCls, extraPage, light }) => {
 
         <meta property="og:title" content="Dario Ernesto Roca - Web Developer" />
         <meta property="og:description" content="I'm a polyglot Full Stack Web developer from Colombia, passionate by developing Websites and Web applications, using both front-end and back-end technologies." />
-        <meta property="og:image" content="img/dark-about.jpg" />
+        <meta property="og:image" content="https://darioernestoroca.com/img/dark-about.jpg" />
         <meta property="og:url" content="https://darioernestoroca.com/" />
         <meta name="twitter:card" content="summary_large_image" />
 
