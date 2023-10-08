@@ -336,8 +336,8 @@ const About = () => {
               <div className="chart-bar">
                 <span
                   className="item-progress"
-                  data-percent={80}
-                  style={{ width: "80%" }}
+                  data-percent={85}
+                  style={{ width: "85%" }}
                 />
                 <span className="percent" style={{ right: "calc(20% - 21px)" }}>
                   80%
@@ -352,8 +352,8 @@ const About = () => {
               <div className="chart-bar">
                 <span
                   className="item-progress"
-                  data-percent={70}
-                  style={{ width: "70%" }}
+                  data-percent={75}
+                  style={{ width: "75%" }}
                 />
                 <span className="percent" style={{ right: "calc(30% - 21px)" }}>
                   70%
@@ -384,8 +384,8 @@ const About = () => {
               <div className="chart-bar">
                 <span
                   className="item-progress"
-                  data-percent={65}
-                  style={{ width: "65%" }}
+                  data-percent={70}
+                  style={{ width: "70%" }}
                 />
                 <span className="percent" style={{ right: "calc(35% - 21px)" }}>
                   65%
@@ -416,8 +416,8 @@ const About = () => {
               <div className="chart-bar">
                 <span
                   className="item-progress"
-                  data-percent={60}
-                  style={{ width: "60%" }}
+                  data-percent={65}
+                  style={{ width: "65%" }}
                 />
                 <span className="percent" style={{ right: "calc(40% - 21px)" }}>
                   60%
@@ -444,12 +444,12 @@ const About = () => {
             {/* Skill Bar Ends */}
             {/* Skill Bar Starts */}
             <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">Framer</span>
+              <span className="skill-text">Git</span>
               <div className="chart-bar">
                 <span
                   className="item-progress"
-                  data-percent={60}
-                  style={{ width: "60%" }}
+                  data-percent={75}
+                  style={{ width: "75%" }}
                 />
                 <span className="percent" style={{ right: "calc(40% - 21px)" }}>
                   60%
