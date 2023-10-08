@@ -99,7 +99,6 @@ const data = [
       "Twitter: Twitter utiliza una SPA para permitir al usuario navegar por tweets, buscar tweets, ver perfiles y hacer otras acciones dentro de una sola página.",
       "Netflix: La interfaz de usuario de Netflix en el navegador también es una SPA, ya que permite a los usuarios navegar por contenido, reproducir videos y realizar otras acciones sin recargar completamente.",
       "Spotify: Spotify utiliza una SPA para permitir a los usuarios navegar por su biblioteca de música, buscar y escuchar música, ver listas de reproducción y realizar otras acciones sin recargar. Spotify utiliza tecnologías como React y Redux para desarrollar su interfaz de usuario.",
-      "Spotify: Spotify utiliza una SPA para permitir a los usuarios navegar por su biblioteca de música, buscar y escuchar música, ver listas de reproducción y realizar otras acciones sin recargar. Spotify utiliza tecnologías como React y Redux para desarrollar su interfaz de usuario.",
       "",
     ],
   },
