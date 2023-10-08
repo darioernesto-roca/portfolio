@@ -169,7 +169,7 @@ const About = () => {
                       <span className="d-block font-weight-400 uppercase">
                         web Developer
                         <span className="separator" />
-                        <span className="font-weight-700">PROtalento</span>
+                        <span className="font-weight-700">Freelance</span>
                       </span>
                     </div>
                     <div className="card-body">
@@ -225,6 +225,32 @@ const About = () => {
                         2023
                       </span>
                       <span className="d-block font-weight-400 uppercase">
+                        Git & Github: Control and share your code
+                        <span className="separator" />
+                        <span className="font-weight-700">
+                          Oracle + Alura Latam
+                        </span>
+                      </span>
+                    </div>
+                    <div className="card-body">
+                      <p>
+                      I have learned how to create and manage repositories, make effective commits, work with branches, and merge changes efficiently. I also gained a solid understanding of the importance of pull requests in GitHub, along with the ability to collaboratively review and approve changes. In addition, I delved into more advanced concepts, including tags, gitignore, reverting changes, and integrating GIT/GitHub into continuous development (CI/CD) workflows.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                {/* Item Ends */}
+                {/* Item Starts */}
+                <div className="item">
+                  <span className="bullet" />
+                  <div className="card">
+                    <div className="card-header">
+                      <span className="year">
+                        <i className="fa fa-calendar" />
+                        <i className="fa fa-caret-right" />
+                        2023
+                      </span>
+                      <span className="d-block font-weight-400 uppercase">
                         React.js Developer
                         <span className="separator" />
                         <span className="font-weight-700">
@@ -254,7 +280,7 @@ const About = () => {
                         Full Stack Software Developer
                         <span className="separator" />
                         <span className="font-weight-700">
-                          IT Education
+                          IT Education | PROtalento
                         </span>
                       </span>
                     </div>

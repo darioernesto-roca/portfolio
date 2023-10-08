@@ -80,7 +80,7 @@ const Contact = () => {
                     <span className="contact-title">email</span>
                     <i className="fa fa-envelope-o fs-14" />
                     <span className="contact-content">
-                      <a href="mailto:darioernesto.roca@gmail.com">
+                      <a href="mailto:darioernesto.roca@gmail.com" target="_blank" rel="noreferrer">
                         darioernesto.roca@gmail.com
                       </a>
                   </span>

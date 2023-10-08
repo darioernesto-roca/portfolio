@@ -32,7 +32,7 @@ const Home = ({ leftImg, video, leftImgSrc }) => {
           <AnimationText />
           <p>
             {`I'm`} a polyglot Full Stack Web developer from Colombia,
-            passionate by developing Web applications,
+            passionate by developing Websites and Web applications,
             using both front-end and back-end technologies.
           </p>
           <div className="call-to-actions-home">
