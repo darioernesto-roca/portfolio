@@ -83,7 +83,7 @@ const workData = [
     duration: "2 weeks",
     technologies: ["WORDPRESS", "CSS", "HTML", "JAVASCRIPT"],
     budget: "1550 USD",
-    previewLink: "https://radiant-beauty-wellness.middlewaytest.com/",
+    previewLink: "https://radiant-beauty-wellness.com/",
   },
   {
     img: "img/projects/project-10.jpg",
