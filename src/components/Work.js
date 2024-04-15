@@ -56,7 +56,7 @@ const workData = [
     img: "img/projects/project-5.jpg",
     name: "Revitalyze Aesthetics",
     format: "img",
-    project: "TEAM BUILT WEBSITE | MIDDLEWAY MARKETING",
+    project: "MIDDLE WAY MARKETING PROJECT",
     client: "Revitalyze Aesthetics",
     duration: "3 weeks",
     technologies: ["WORDPRESS", "CSS", "HTML", "JAVASCRIPT"],
@@ -78,7 +78,7 @@ const workData = [
     img: "img/projects/project-7.jpg",
     name: "Radiant Beauty and Wellness Medical Spa",
     format: "img",
-    project: "TEAM BUILT WEBSITE | MIDDLEWAY MARKETING",
+    project: "MIDDLE WAY MARKETING PROJECT",
     client: "Radiant Beauty and Wellness Medical Spa",
     duration: "2 weeks",
     technologies: ["WORDPRESS", "CSS", "HTML", "JAVASCRIPT"],
@@ -86,26 +86,26 @@ const workData = [
     previewLink: "https://radiant-beauty-wellness.middlewaytest.com/",
   },
   {
-    img: "img/projects/project-8.jpg",
-    name: "Mohamed Hay Psicología",
+    img: "img/projects/project-10.jpg",
+    name: "Northwest Indiana Med Spa",
     format: "img",
-    project: "WEBSITE",
-    client: "Mohamed Hay ",
-    duration: "3 weeks",
-    technologies: ["HTML", "JAVASCRIPT", "NODE.JS", "CSS"],
+    project: "MIDDLE WAY MARKETING PROJECT",
+    client: "Northwest Indiana Med Spa",
+    duration: "4 weeks",
+    technologies: ["FIGMA", "WORDPRESS", "HTML", "JAVASCRIPT", "CSS"],
     budget: "1550 USD",
-    previewLink: "https://mohamedhayconsultorio.onrender.com/",
+    previewLink: "https://nwi-medspa.com/",
   },
   {
-    img: "img/projects/project-9.jpg",
-    name: "Ontario Plant Market",
+    img: "img/projects/project-11.jpg",
+    name: "Saints European Skin Care Clinic & Spa",
     format: "img",
-    project: "WEBSITE",
-    client: "Personal Project",
-    duration: "1 week",
-    technologies: ["Webflow", "HTML", "CSS"],
+    project: "MIDDLE WAY MARKETING PROJECT",
+    client: "Saints European Skin Care Clinic & Spa",
+    duration: "2 week",
+    technologies: ["WORDPRESS", "HTML", "JAVASCRIPT", "CSS"],
     budget: "1550 USD",
-    previewLink: "https://example.com/project9",
+    previewLink: "https://www.saintseuropeanskincare.com/",
   },
 ];
 
@@ -172,6 +172,7 @@ const Work = () => {
           >
             {/* Main Content Starts */}
             <div className="project-info-main-content">
+            <a href={work.previewLink} target="_blank" rel="noreferrer">
               {work.format == "img" ? (
                 <ImgSideBar img={work.img} />
               ) : work.format == "youtube" ? (
@@ -181,6 +182,7 @@ const Work = () => {
               ) : (
                 <VideoSideBar playing={active} />
               )}
+              </a>
             </div>
             {/* Main Content Ends */}
             {/* Project Details Starts */}
